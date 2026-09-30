@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint": "node --check src/cart.js && node --check test/cart.test.js",
+    "check": "npm run lint && npm test"
   }
 }
