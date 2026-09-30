@@ -10,7 +10,7 @@ One function: `cartTotal(items, options)` in `src/cart.js`. The spec is README.m
 
 ## Commands
 - `npm test` — run all tests
-- `npm run lint` — syntax check with `node --check`
+- `npm run lint` — syntax check with `node --check`, then `scripts/lint.js`: no dependencies in package.json, imports only `node:` or relative, no `toFixed` in src/cart.js, no tabs, no trailing whitespace, final newline
 - `npm run check` — lint, then test. This is the gate.
 
 ## Gate
