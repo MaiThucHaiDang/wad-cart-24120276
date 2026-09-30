@@ -21,7 +21,7 @@ A change is not done until `npm run check` passes. CI runs the same on every pus
 - Never edit or delete the starter test "the example from the slides".
 - Never weaken or delete a test to make it pass. Fix the code.
 - Never use `toFixed` or return a string. The total is a number.
-- Never commit or push. The student does that.
+- Never commit or push unless the student asks. When asked, run `npm run check` first, write a commit message that says what changed and why, and end it with a Co-Authored-By line.
 - Never touch files the task does not name.
 
 ## Style
